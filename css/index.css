@@ -84,7 +84,11 @@ nav i{
 }
 
 
-/* sezione 5  */
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
 
 /* media dispostitivi tablet e piu grandi */
 @media all and (min-width:480px) {
