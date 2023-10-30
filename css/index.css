@@ -210,12 +210,12 @@ nav i{
 
 /* sezione 6  */
 
-.inizia{
+.inizia-iscrizione{
     color: white;
     text-align: center;
 }
 
-.inizia>h1{
+.inizia-iscrizione>h1{
     color: yellow;
     margin: 10px 0;
     font-size: 50px;
@@ -288,6 +288,14 @@ footer p{
     /* caratteristiche contenitore sezione 5 */
     .sez5{
         display: flex;
+    }
+    .sez5>.stretto{
+        padding-left: 30px;
+    }
+    /* sezione6 */
+    .inizia-iscrizione, .note {
+        width: 60%;
+        margin: 0 auto;
     }
 }  
 
