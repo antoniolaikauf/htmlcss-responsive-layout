@@ -1,0 +1,49 @@
+/* stili genrali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.item-flex{
+    display: flex;
+}
+
+/* iizio header */
+
+header{
+    background-color: aqua;
+    padding: 10px 30px;
+}
+/* caratteristiche nav */
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav i{
+    font-size: 30px;
+    color: white;
+}
+/* parte nascosta */
+
+#nascosto {
+    display: none;
+}
+
+/* media dispositivi desktop */
+@media all and (min-width:768px) {
+    #nascosto {
+        display: block;
+    }
+
+    #nascosto li{
+        margin: 0px 10px;
+        list-style: none;
+    }
+
+    #item-nascosto{
+        display: none;
+    }
+
+}
