@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-family: 'PT Sans', sans-serif;
+}
+
 .item-flex{
     display: flex;
 }
@@ -12,7 +16,7 @@
 .contenitore{
     width: 90%;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .colorata{
@@ -21,6 +25,10 @@
 
 section{
     padding: 20px 0;
+}
+
+.stretto img{
+    width: 100%; 
 }
 
 /* iizio header */
@@ -74,10 +82,6 @@ nav i{
 }
 
 /* sezione 3 */
-  /* mettere in generale */
-.stretto img{
-    width: 100%; 
-}
 
 .sez3>div{
     margin: 20px 0;
