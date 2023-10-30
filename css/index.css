@@ -16,7 +16,7 @@
 .contenitore{
     width: 90%;
     margin: auto;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .colorata{
@@ -28,7 +28,11 @@ section{
 }
 
 .stretto img{
-    width: 100%; 
+  width: 100%;
+}
+
+.testo-colorato{
+    color: #c4a3ff;
 }
 
 /* iizio header */
@@ -106,7 +110,7 @@ nav i{
 /* sezione 2 */
 
 .sez2 img{
-    width: 100%;
+   width: 100%;
 }
 
 #app-development{
@@ -139,6 +143,14 @@ nav i{
 
 .sez3>div{
     margin: 20px 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.sez3 img, .sez5 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
 }
 
 
@@ -168,12 +180,15 @@ footer{
     /* caratteristiche contenitore sezione 3 main */
     .sez3>div{
         display: flex;
+        align-items: center;
+        padding: 20px ;
     }
     .stretto{
-        width: 40%;
+        width: 30%;
+
     }
     .largo{
-        width: 60%;
+        width: 70%;
         text-align: left;
     }
     /* caratteristiche contenitore  sezione 4 */
