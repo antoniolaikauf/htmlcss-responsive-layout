@@ -9,30 +9,71 @@
     display: flex;
 }
 
+.contenitore{
+    width: 90%;
+    margin: auto;
+}
+
 /* iizio header */
 
 header{
     background-color: aqua;
-    padding: 10px 30px;
+    margin-bottom: 30px;
 }
 /* caratteristiche nav */
 nav{
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
 nav i{
     font-size: 30px;
     color: white;
 }
-/* parte nascosta */
+/* parte nascosta dentro nav */
 
 #nascosto {
     display: none;
 }
+/* caratteristiche  main */
 
-/* media dispositivi desktop */
+/* sezione 1 */
+
+.items-contenitore{
+    text-align: center;
+}
+
+.items-contenitore img{
+    width: 100%;
+}
+
+.item{
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+/* media dispostitivi tablet e piu grandi */
+@media all and (min-width:480px) {
+    /* caratteristiche contenitore sezione 1 main */
+    .items-contenitore{
+        display: flex;
+    }
+
+    #anomalo{
+       flex-grow: 1;
+       margin: 10px;
+    }
+
+    .item{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+    }
+}
+
+/* media dispositivi desktop e piu grandi*/
 @media all and (min-width:768px) {
+    /* parte nav */
     #nascosto {
         display: block;
     }
@@ -45,5 +86,9 @@ nav i{
     #item-nascosto{
         display: none;
     }
-
+    /* caratteristiche contenitore seione 1 main*/
+    #anomalo{
+        display: flex;
+    }
 }
+
