@@ -74,14 +74,17 @@ nav i{
 }
 
 /* sezione 3 */
-
-.sez3 img{
-    width: 100%;
+  /* mettere in generale */
+.stretto img{
+    width: 100%; 
 }
 
 .sez3>div{
     margin: 20px 0;
 }
+
+
+/* sezione 5  */
 
 /* media dispostitivi tablet e piu grandi */
 @media all and (min-width:480px) {
@@ -117,6 +120,10 @@ nav i{
     }
     .item-sez4{
         width: 50%;
+    }
+    /* caratteristiche contenitore sezione 5 */
+    .sez5{
+        display: flex;
     }
 }  
 
