@@ -16,7 +16,7 @@
 .contenitore{
     width: 90%;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .colorata{
@@ -166,7 +166,7 @@ nav i{
     margin: 10px 0px;
 }
 
-.bottone-benefici{
+.sapere-di-noi{
     background-color: #c4a3ff;
     color: white;
     border-radius: 25px;
@@ -174,6 +174,23 @@ nav i{
     text-decoration: none;
     margin: 10px 0px;
     display: inline-block;
+}
+
+/* sezione 5 */
+.sez5>.stretto{
+    position: relative;
+    padding-left: 20px;
+}
+
+.stretto i{
+    font-size: 40px;
+    color: #c4a3ff;
+    position: absolute;
+    left: 90px;
+}
+
+.sez5 p{
+    margin: 20px 0;
 }
 
 /* footer */
