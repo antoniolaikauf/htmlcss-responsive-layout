@@ -109,9 +109,30 @@ nav i{
     width: 100%;
 }
 
-#bianca{
+#app-development{
     background-color: white;
     padding: 10px;
+    height: 70%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#app-development i{
+    background-color: #c4a3ff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#strategic-plant{
+    color: white;
+    margin-right: 20px;
+}
+
+.sez2 h2{
+    margin: 30px 0;
 }
 
 /* sezione 3 */
@@ -199,6 +220,7 @@ footer{
     /* caratteristiche contenitore sezione 2 main */
     .sez2{
         display: flex;
+        align-items: end;
     }
     /* caratteristiche contenitore sezione 4 main */
     .item-sez4{
