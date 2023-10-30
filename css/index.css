@@ -77,10 +77,11 @@ nav i{
     width: 100%;
 }
 
-.item{
+.item, #anomalo{
     background-color: #6ec9ff;
     margin-bottom: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .items-contenitore h3{
@@ -100,11 +101,13 @@ nav i{
 }
 
 .bottone-standart{
-    padding: 5px 20px;
+    padding: 5px 30px;
     background-color: blue;
     color: white;
     text-decoration: none;
     border-radius: 25px;
+    margin: 15px ;
+    display: inline-block;
 }
 
 /* sezione 2 */
@@ -116,41 +119,48 @@ nav i{
 #app-development{
     background-color: white;
     padding: 10px;
-    height: 70%;
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #app-development i{
     background-color: #c4a3ff;
     padding: 10px;
     border-radius: 50%;
-    margin-top: 20px;
 }
 
 #strategic-plant{
     color: white;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
-.sez2 h2{
+.sez2 p{
     margin: 30px 0;
 }
 
 /* sezione 3 */
 
+.sez3{
+    text-align: center;
+}
+
 .sez3>div{
     margin: 20px 0;
     border-radius: 20px;
     color: white;
+    padding: 20px 0;
 }
 
 .sez3 img, .sez5 img{
     width: 100px;
     height: 100px;
     border-radius: 50%; 
+}
+
+.sez3 .testo-colorato{
+    margin: 20px 0;
 }
 
 /* sezione 4 */
@@ -162,15 +172,21 @@ nav i{
     margin-bottom: 20px;
 }
 
+.sez4>h3{
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+}
+
 .item-sez4>h3{
     margin: 10px 0px;
 }
 
 .sapere-di-noi{
-    background-color: #c4a3ff;
+    background-color: #aa81f1;
     color: white;
     border-radius: 25px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     text-decoration: none;
     margin: 10px 0px;
     display: inline-block;
@@ -179,12 +195,11 @@ nav i{
 /* sezione 5 */
 .sez5>.stretto{
     position: relative;
-    padding-left: 20px;
 }
 
 .stretto i{
     font-size: 40px;
-    color: #c4a3ff;
+    color: #aa81f1;
     position: absolute;
     left: 90px;
 }
@@ -207,7 +222,7 @@ nav i{
 }
 
 #bottone-inizia{
-    color: #c4a3ff;
+    color: #aa81f1;
     background-color: white;
     padding: 5px 10px;
     border-radius: 25px;
@@ -301,6 +316,12 @@ footer p{
     /* caratteristiche contenitore seione 1 main*/
     #anomalo{
         display: flex;
+    }
+    #application{
+        width: 60%;
+    }
+    #contenitore-img{
+        width: 40%;
     }
 
     /* caratteristiche contenitore sezione 2 main */
