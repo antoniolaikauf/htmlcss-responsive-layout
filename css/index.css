@@ -12,6 +12,7 @@
 .contenitore{
     width: 90%;
     margin: auto;
+    text-align: center;
 }
 
 .colorata{
@@ -98,7 +99,7 @@ nav i{
         width: calc(100% / 3 - 20px);
         margin: 10px;
     }
-    /* sezione 3 main */
+    /* caratteristiche contenitore sezione 3 main */
     .sez3>div{
         display: flex;
     }
@@ -107,6 +108,15 @@ nav i{
     }
     .largo{
         width: 60%;
+        text-align: left;
+    }
+    /* caratteristiche contenitore  sezione 4 */
+    .sez4>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-sez4{
+        width: 50%;
     }
 }  
 
@@ -139,6 +149,10 @@ nav i{
     /* caratteristiche contenitore sezione 2 main */
     .sez2{
         display: flex;
+    }
+    /* caratteristiche contenitore sezione 4 main */
+    .item-sez4{
+        width: calc(100% / 3);
     }
 }
 
