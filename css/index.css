@@ -150,7 +150,7 @@ nav i{
     margin: 20px 0;
     border-radius: 20px;
     color: white;
-    padding: 20px 0;
+    padding: 20px ;
 }
 
 .sez3 img, .sez5 img{
@@ -270,7 +270,7 @@ footer p{
     }
     .stretto{
         width: 30%;
-
+        text-align: left;
     }
     .largo{
         width: 70%;
@@ -292,9 +292,9 @@ footer p{
     .sez5>.stretto{
         padding-left: 30px;
     }
-    /* sezione6 */
+    /* sezione6 e footer*/
     .inizia-iscrizione, .note {
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
     }
 }  
@@ -341,5 +341,10 @@ footer p{
     .item-sez4{
         width: calc(100% / 3 - 20px);
     }
+    /* sezione6 e footer*/
+     .inizia-iscrizione, .note {
+        width: 50%;
+         margin: 0 auto;
+     }
 }
 
