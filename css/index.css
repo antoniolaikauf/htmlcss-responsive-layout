@@ -193,10 +193,41 @@ nav i{
     margin: 20px 0;
 }
 
+/* sezione 6  */
+
+.inizia{
+    color: white;
+    text-align: center;
+}
+
+.inizia>h1{
+    color: yellow;
+    margin: 10px 0;
+    font-size: 50px;
+}
+
+#bottone-inizia{
+    color: #c4a3ff;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#sfocatura{
+    color: rgba(255, 255, 255, 0.532);
+    margin-bottom: 10px;
+}
 /* footer */
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 20px;
 }
 
 /* media dispostitivi tablet e piu grandi */
