@@ -76,6 +76,31 @@ nav i{
 .item{
     background-color: #6ec9ff;
     margin-bottom: 20px;
+    padding: 20px;
+}
+
+.items-contenitore h3{
+    color: blue;
+    margin: 10px 0;
+}
+
+.items-contenitore i{
+    font-size: 40px;
+    color: blue;
+}
+
+#anomalo i{
+    font-size: unset;
+    color: white;
+    margin-right: 5px;
+}
+
+.bottone-standart{
+    padding: 5px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 /* sezione 2 */
@@ -112,6 +137,7 @@ footer{
     #anomalo{
        flex-grow: 1;
        margin: 10px;
+       text-align: left;
     }
 
     .item{
