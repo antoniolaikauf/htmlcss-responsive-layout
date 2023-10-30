@@ -72,6 +72,16 @@ nav i{
     padding: 10px;
 }
 
+/* sezione 3 */
+
+.sez3 img{
+    width: 100%;
+}
+
+.sez3>div{
+    margin: 20px 0;
+}
+
 /* media dispostitivi tablet e piu grandi */
 @media all and (min-width:480px) {
     /* caratteristiche contenitore sezione 1 main */
@@ -88,10 +98,26 @@ nav i{
         width: calc(100% / 3 - 20px);
         margin: 10px;
     }
-}
+    /* sezione 3 main */
+    .sez3>div{
+        display: flex;
+    }
+    .stretto{
+        width: 40%;
+    }
+    .largo{
+        width: 60%;
+    }
+}  
 
 /* media dispositivi desktop e piu grandi*/
 @media all and (min-width:768px) {
+    /* caratteristiche contenitore */
+    .contenitore{
+        width: 70%;
+        margin: auto;
+    }
+
     /* parte nav */
     #nascosto {
         display: block;
