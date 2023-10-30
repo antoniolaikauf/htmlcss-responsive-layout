@@ -20,7 +20,7 @@
 }
 
 .colorata{
-    background-color: blueviolet;
+    background-color: #c4a3ff;
 }
 
 section{
@@ -34,7 +34,7 @@ section{
 /* iizio header */
 
 header{
-    background-color: aqua;
+    background-color:#2e3df6;
     margin-bottom: 30px;
 }
 /* caratteristiche nav */
@@ -47,6 +47,14 @@ nav{
 nav i{
     font-size: 30px;
     color: white;
+}
+
+#bottone-nav{
+    padding: 5px 10px ;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
 }
 /* parte nascosta dentro nav */
 
@@ -66,7 +74,7 @@ nav i{
 }
 
 .item{
-    background-color: blue;
+    background-color: #6ec9ff;
     margin-bottom: 20px;
 }
 
@@ -151,6 +159,7 @@ footer{
     #nascosto li{
         margin: 0px 10px;
         list-style: none;
+        color: rgba(255, 255, 255, 0.587);
     }
 
     #item-nascosto{
