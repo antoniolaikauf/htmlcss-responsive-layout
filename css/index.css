@@ -20,7 +20,7 @@
 }
 
 .colorata{
-    background-color: #c4a3ff;
+    background-color: #9792e4;
 }
 
 section{
@@ -32,7 +32,7 @@ section{
 }
 
 .testo-colorato{
-    color: #c4a3ff;
+    color: #9792e4;
 }
 
 h2{
@@ -42,7 +42,7 @@ h2{
 /* iizio header */
 
 header{
-    background-color:#2e3df6;
+    background-color:#0084fd;
     margin-bottom: 30px;
     position: fixed;
     width: 100%;
@@ -88,25 +88,25 @@ main{
 }
 
 .item{
-    background-color: #6ec9ff;
+    background-color: #b5ddff;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
 }
 
 .items-contenitore h3{
-    color: blue;
+    color: #0988fd;
     margin: 10px 0;
 }
 
 .items-contenitore i{
     font-size: 40px;
-    color: blue;
+    color: #0988fd;
 }
 
 .bottone-standart{
     padding: 5px 30px;
-    background-color: blue;
+    background-color: #0988fd;
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -146,7 +146,7 @@ main{
 }
 
 #app-development i{
-    background-color: #c4a3ff;
+    background-color: #9792e4;
     padding: 10px;
     border-radius: 50%;
 }
@@ -208,7 +208,7 @@ main{
 }
 
 .sapere-di-noi{
-    background-color: #aa81f1;
+    background-color: #9792e4;
     color: white;
     border-radius: 25px;
     padding: 10px 20px;
@@ -234,7 +234,7 @@ main{
 }
 
 .sapere-di-noi>span{
-    color: #aa81f1;
+    color: #9792e4;
     background-color: white;
     margin-right: 10px;
 }
