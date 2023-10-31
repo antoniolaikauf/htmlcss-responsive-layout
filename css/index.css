@@ -218,7 +218,7 @@ main{
 }
 
 /* sezione 5 */
-.sez5>.stretto{
+#dipendente{
     position: relative;
 }
 
@@ -226,7 +226,7 @@ main{
     font-size: 40px;
     color: #aa81f1;
     position: absolute;
-    left: 100px;
+    left: 80px;
 }
 
 .sez5 p{
@@ -326,7 +326,7 @@ footer p{
         display: flex;
     }
     .sez5>.stretto{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     /* sezione6 e footer*/
     .inizia-iscrizione, .note {
