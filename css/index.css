@@ -163,6 +163,10 @@ nav i{
     margin: 20px 0;
 }
 
+.sez3 i{
+    font-size: 25px;
+}
+
 /* sezione 4 */
 .item-sez4{
     text-align: left;
@@ -201,7 +205,7 @@ nav i{
     font-size: 40px;
     color: #aa81f1;
     position: absolute;
-    left: 90px;
+    left: 100px;
 }
 
 .sez5 p{
