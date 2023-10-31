@@ -125,13 +125,11 @@ main{
 }
 
 /* sezione pianificazione e development  */
-
 #app-development{
     background-color: white;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 #app-development i{
@@ -142,8 +140,6 @@ main{
 
 #strategic-plant{
     color: white;
-    margin-right: 20px;
-    margin-top: 20px;
 }
 
 .pianificazione p{
@@ -274,6 +270,12 @@ footer p{
         width: calc(100% / 3 - 20px);
         margin: 10px;
     }
+    #contenitore-img img{
+        width: 60%;
+    }
+    #strategic-plant h3{
+        font-size: 30px;
+    }
     /* caratteristiche testimonianze  */
     .testimonianze>div{
         display: flex;
@@ -282,11 +284,11 @@ footer p{
     }
     /* caratteristiche spazio immagine e testo in largo testo e in stretto l'immagine */
     .stretto{
-        width: 30%;
+        width: 25%;
         text-align: left;
     }
     .largo{
-        width: 70%;
+        width: 75%;
         text-align: left;
     }
     /* caratteristiche benefici di lavorare con noi */
@@ -338,10 +340,20 @@ footer p{
     #anomalo{
         display: flex;
     }
+    #contenitore-img img{
+        width: 100%;
+    }
     /* caratteristiche pianificazione e development  */
     .pianificazione{
         display: flex;
         align-items: end;
+        width: 60%;
+    }
+    #strategic-plant h3{
+        font-size: 1.17rem;
+    }
+    #strategic-plant{
+        padding-right: 30px;
     }
     /* caratteristiche benefici di lavorare con noi*/
     .col{
