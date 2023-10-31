@@ -9,37 +9,30 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-.item-flex{
-    display: flex;
-}
-
 .contenitore{
     width: 90%;
     margin: auto;
-    /* text-align: center; */
 }
 
-.colorata{
+/* parti colorate pagina */
+.bg-colorato{
     background-color: #9792e4;
-}
-
-section{
-    padding: 20px 0;
-}
-
-.stretto img{
-  width: 100%;
 }
 
 .testo-colorato{
     color: #9792e4;
 }
 
-h2{
-    font-size: 30px;
+section{
+    padding: 30px 0;
 }
 
-/* iizio header */
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* iizio barra di ricerca utente  */
 
 header{
     background-color:#0084fd;
@@ -51,13 +44,14 @@ header{
 }
 /* caratteristiche nav */
 nav{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
 
-nav i{
-    font-size: 30px;
+nav i, .testimonianze i{
+    font-size: 25px;
     color: white;
 }
 
@@ -77,34 +71,30 @@ nav i{
 main{
     padding-top: 60px;
 }
-/* sezione 1 */
+/* inizio utilizzi */
 
-.items-contenitore{
+.contenitore-items, .testimonianze{
     text-align: center;
 }
 
-.items-contenitore img{
-    width: 100%;
-}
-
-.item{
+.item, #anomalo{
     background-color: #b5ddff;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
 }
 
-.items-contenitore h3{
+.contenitore-items h3{
     color: #0988fd;
     margin: 10px 0;
 }
 
-.items-contenitore i{
+.item i{
     font-size: 40px;
     color: #0988fd;
 }
 
-.bottone-standart{
+#bottone-app{
     padding: 5px 30px;
     background-color: #0988fd;
     color: white;
@@ -126,16 +116,15 @@ main{
 }
 
 #anomalo i{
-    font-size: unset;
     color: white;
     margin-right: 5px;
 }
-
-/* sezione 2 */
-
-.sez2 img{
-   width: 100%;
+/* immagine pianificazione  */
+#anomalo img, .pianificazione img{
+    width: 100%;
 }
+
+/* sezione pianificazione e development  */
 
 #app-development{
     background-color: white;
@@ -157,39 +146,28 @@ main{
     margin-top: 20px;
 }
 
-.sez2 p{
+.pianificazione p{
     margin: 30px 0;
 }
 
-/* sezione 3 */
+/* testimonianze */
+/* centratura testimonianze sopra con utilizzi */
 
-.sez3{
-    text-align: center;
-}
-
-.sez3>div{
+.testimonianze>div{
     margin: 20px 0;
     border-radius: 20px;
     color: white;
     padding: 20px ;
 }
 
-.sez3 img, .sez5 img{
+.testimonianze img, .chi-siamo img{
     width: 100px;
     height: 100px;
     border-radius: 50%; 
 }
-
-.sez3 .testo-colorato{
-    margin: 20px 0;
-}
-
-.sez3 i{
-    font-size: 25px;
-}
-
-/* sezione 4 */
-.item-sez4{
+/* caratteristiche i dentro testimonianze in caratteristiche nav */
+/* inizio benefici di lavorare con noi */
+.col{
     text-align: left;
     padding: 10px;
     border-radius: 10px;
@@ -197,13 +175,13 @@ main{
     margin-bottom: 20px;
 }
 
-.sez4>h3{
+.benefici>h2{
     margin: 20px 0;
     text-align: center;
     color: white;
-}
+}   
 
-.item-sez4>h3{
+.col>h3{
     margin: 10px 0px;
 }
 
@@ -217,7 +195,7 @@ main{
     display: inline-block;
 }
 
-/* sezione 5 */
+/* inizio chi siamo */
 #dipendente{
     position: relative;
 }
@@ -229,29 +207,29 @@ main{
     left: 80px;
 }
 
-.sez5 p{
+.chi-siamo p{
     margin: 20px 0;
 }
 
 .sapere-di-noi>span{
-    color: #9792e4;
+    color: #aa81f1;
     background-color: white;
     margin-right: 10px;
 }
 
-.sez5 h2{
+.chi-siamo h2{
     font-size: 40px;
 }
+/* caratteristiche immagine dentro a testimonianze */
+/* inizio iscrizione  */
 
-/* sezione 6  */
-
-.inizia-iscrizione{
+#inizia-iscrizione{
     color: white;
     text-align: center;
 }
 
-.inizia-iscrizione>h1{
-    color: #f4c92d;
+#inizia-iscrizione>div{
+    color: #fdc15f;
     margin: 10px 0;
     font-size: 50px;
 }
@@ -283,27 +261,26 @@ footer p{
 
 /* media dispostitivi tablet e piu grandi */
 @media all and (min-width:480px) {
-    /* caratteristiche contenitore sezione 1 main */
-    .items-contenitore{
+    /* caratteristiche utilizzi */
+    .contenitore-items{
         display: flex;
     }
-
     #anomalo{
-       flex-grow: 1;
+       width: calc((100% / 3 - 10px) * 2);
        margin: 10px;
        text-align: left;
     }
-
     .item{
         width: calc(100% / 3 - 20px);
         margin: 10px;
     }
-    /* caratteristiche contenitore sezione 3 main */
-    .sez3>div{
+    /* caratteristiche testimonianze  */
+    .testimonianze>div{
         display: flex;
         align-items: center;
         padding: 20px ;
     }
+    /* caratteristiche spazio immagine e testo in largo testo e in stretto l'immagine */
     .stretto{
         width: 30%;
         text-align: left;
@@ -312,24 +289,24 @@ footer p{
         width: 70%;
         text-align: left;
     }
-    /* caratteristiche contenitore  sezione 4 */
-    .sez4>div{
+    /* caratteristiche benefici di lavorare con noi */
+    .benefici>div{
         display: flex;
         flex-wrap: wrap;
     }
-    .item-sez4{
+    .col{
        width: calc(100% / 2 - 20px);
        margin-left: 20px;
     }
-    /* caratteristiche contenitore sezione 5 */
-    .sez5{
+    /* caratteristiche chi siamo */
+    .chi-siamo{
         display: flex;
     }
-    .sez5>.stretto{
+    .chi-siamo>.stretto{
         padding-left: 20px;
     }
-    /* sezione6 e footer*/
-    .inizia-iscrizione, .note {
+    /* caratteristiche di iscrizione e footer*/
+    #inizia-iscrizione, #note {
         width: 50%;
         margin: 0 auto;
     }
@@ -342,45 +319,32 @@ footer p{
         width: 70%;
         margin: auto;
     }
-
-    /* parte nav */
+    /* caratteristiche  nav */
     #nascosto {
         display: block;
     }
-
+    #nascosto ul{
+        display: flex;
+    }
     #nascosto li{
         margin: 0px 10px;
         list-style: none;
         color: rgba(255, 255, 255, 0.587);
     }
-
     #item-nascosto{
         display: none;
     }
-    /* caratteristiche contenitore seione 1 main*/
+    /* caratteristiche utilizzi*/
     #anomalo{
         display: flex;
     }
-    #application{
-        width: 60%;
-    }
-    #contenitore-img{
-        width: 40%;
-    }
-
-    /* caratteristiche contenitore sezione 2 main */
-    .sez2{
+    /* caratteristiche pianificazione e development  */
+    .pianificazione{
         display: flex;
         align-items: end;
     }
-    /* caratteristiche contenitore sezione 4 main */
-    .item-sez4{
+    /* caratteristiche benefici di lavorare con noi*/
+    .col{
         width: calc(100% / 3 - 20px);
     }
-    /* sezione6 e footer*/
-     .inizia-iscrizione, .note {
-        width: 40%;
-         margin: 0 auto;
-     }
 }
-
