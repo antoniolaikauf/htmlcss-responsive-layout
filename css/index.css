@@ -35,11 +35,19 @@ section{
     color: #c4a3ff;
 }
 
+h2{
+    font-size: 30px;
+}
+
 /* iizio header */
 
 header{
     background-color:#2e3df6;
     margin-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 500;
 }
 /* caratteristiche nav */
 nav{
@@ -66,7 +74,9 @@ nav i{
     display: none;
 }
 /* caratteristiche  main */
-
+main{
+    padding-top: 60px;
+}
 /* sezione 1 */
 
 .items-contenitore{
@@ -201,7 +211,7 @@ nav i{
     background-color: #aa81f1;
     color: white;
     border-radius: 25px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     margin: 10px 0px;
     display: inline-block;
@@ -223,6 +233,16 @@ nav i{
     margin: 20px 0;
 }
 
+.sapere-di-noi>span{
+    color: #aa81f1;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.sez5 h2{
+    font-size: 40px;
+}
+
 /* sezione 6  */
 
 .inizia-iscrizione{
@@ -231,7 +251,7 @@ nav i{
 }
 
 .inizia-iscrizione>h1{
-    color: yellow;
+    color: #f4c92d;
     margin: 10px 0;
     font-size: 50px;
 }
@@ -252,7 +272,7 @@ nav i{
 }
 /* footer */
 footer{
-    background-color: black;
+    background-color: #000000c4;
     color: white;
     text-align: center;
 }
@@ -359,7 +379,7 @@ footer p{
     }
     /* sezione6 e footer*/
      .inizia-iscrizione, .note {
-        width: 50%;
+        width: 40%;
          margin: 0 auto;
      }
 }
